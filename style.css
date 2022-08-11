@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap');
+
+/* define colours as var */
+:root{
+    --primary-color: #f5e050;
+    --gray: #2e2e2e;
+    --offwhite:#D3D3D3;
+    --black:#000000;
+}
+
+::placeholder{
+    color: var(--gray);
+    font-weight: bold;
+}
+
+body{
+    margin: 0px;
+}
+
+header{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+    border-bottom: 2px solid var(--black);
+}
+
+header h1{
+    text-align: center;
+    font-weight: 400;
+    
+}
+header h1 span{
+    font-weight: 700;
+}
+
+#txt-input{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem ;
+    width: 50vw;
+    min-height: 10vh;
+    margin: auto;
+    display: block;
+    margin: 2rem auto;
+    background-color: var(--offwhite);
+    font-weight: bold;
+    box-shadow: 2px 2px 5px var(--black); 
+}
+
+#btn-translate{
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    margin: 1rem auto;
+    display: block;
+    background-color: var(--primary-color);
+    font-family: 'Montserrat', sans-serif;
+    border: 2px solid var(--black);
+    box-shadow: 1px 1px 2px var(--black); 
+    transition: box-shadow 500ms, font-weight 250ms;
+}
+
+#btn-translate:hover{
+    box-shadow: 2px 2px 4px var(--black);
+    transition: box-shadow 500ms;
+    border-color: var(--primary-color);
+    background-color: var(--offwhite);
+}
+
+#txt-output{
+    font-family: 'Montserrat', sans-serif;
+    padding: 1.5rem ;
+    width: 50vw;
+    min-height: 10vh;
+    margin: 2rem auto;
+    display: block;
+    color: var(--gray);
+    background-color: var(--offwhite);
+    font-weight: bold;
+    font-size: small;
+    box-shadow: 2px 2px 5px var(--black); 
+}
+
+
+footer{
+    background-color: var(--primary-color);
+    margin: 0;
+    padding: 1rem;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    border-top: 2px solid var(--black);
+}
+
+.footer-text{
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
